@@ -79,7 +79,7 @@
                         <div class="cardijazah">
                             <img class="imgijazah " src="{{ asset('img/ifront.png') }}" alt="ifront">
                             <div class="text sekolah1">Sekolah Dasar Islam Terpadu </div>
-                            <div class="text sekolah2">Harapan Umat Jember </div>
+                            <div class="text sekolah2">Harapan Umat </div>
                             <div class="text npsn">20554128</div>
                             <div class="text kab">Jember</div>
                             <div class="text prov">Jawa Timur</div>
