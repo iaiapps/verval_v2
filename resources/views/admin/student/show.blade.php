@@ -54,16 +54,16 @@
                         <div class="cardijazah">
                             <img class="imgijazah " src="{{ asset('img/ifront.png') }}" alt="ifront">
                             <div class="text sekolah1">Sekolah Dasar Islam Terpadu </div>
-                            <div class="text sekolah2">Harapan Umat Jember </div>
+                            <div class="text sekolah2">Harapan Umat </div>
                             <div class="text npsn">20554128</div>
                             <div class="text kab">Jember</div>
                             <div class="text prov">Jawa Timur</div>
-                            <div class="text nama">{{ $student->full_name }}</div>
+                            <div class="text nama text-uppercase">{{ $student->full_name }}</div>
                             <div class="text ttl">{{ $student->place_of_birth }}, {{ $student->date_of_birth }}</div>
                             <div class="text ortu">{{ $student->parents_name }}</div>
                             <div class="text nis">{{ $student->nis }}</div>
                             <div class="text nisn">{{ $student->nisn }}</div>
-                            {{-- <div class="text sekolah3">SDIT Harapan Umat Jember</div> --}}
+                            <div class="text sekolah3">Sekolah Dasar Islam Terpadu Harapan Umat</div>
                             <div class="text nomor">421.2/66/310.03.20554128/2024</div>
                             <div class="text tanggal">Kab. Jember, 11 Juni </div>
                             <div class="text kepsek">Elly Nuzulianti S.S</div>
@@ -93,7 +93,7 @@
         .text {
             white-space: nowrap;
             position: absolute;
-            font-weight: bold;
+            font-weight: 500;
         }
 
         .sekolah1 {
@@ -108,7 +108,7 @@
 
         .npsn {
             top: 445px;
-            left: 385px;
+            left: 370px;
         }
 
         .kab {
@@ -123,33 +123,33 @@
 
         .nama {
             top: 525px;
-            left: 385px;
+            left: 370px;
         }
 
         .ttl {
             top: 550px;
-            left: 385px;
+            left: 370px;
         }
 
         .ortu {
             top: 576px;
-            left: 385px;
+            left: 370px;
         }
 
         .nis {
             top: 604px;
-            left: 385px;
+            left: 370px;
         }
 
         .nisn {
             top: 632px;
-            left: 385px;
+            left: 370px;
         }
 
-        /* .sekolah3 {
-                top: 772px;
-                left: 360px;
-            } */
+        .sekolah3 {
+            top: 772px;
+            left: 360px;
+        }
 
         .nomor {
             top: 800px;
@@ -158,7 +158,7 @@
 
         .tanggal {
             top: 910px;
-            left: 520px;
+            left: 500px;
         }
 
         .kepsek {

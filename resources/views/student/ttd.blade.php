@@ -2,8 +2,12 @@
 <div class="modal fade" tabindex="-1" id="ttd" aria-labelledby="ttdLabel">
     <div class="modal-dialog">
         <div class="modal-content">
-            <div class="card p-3">
+            <div class="modal-header">
+                <h5 class="modal-title">Tanda Tangan</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
 
+            <div class="card p-3">
                 <form id="form" method="POST" action="{{ route('signaturepad.upload') }}">
                     @csrf
                     <input type="text" hidden name="student_id" value="{{ $student->id }}">
@@ -11,11 +15,11 @@
                         <canvas id="signature-pad" class="signature-pad" class="bg-white"></canvas>
                         <textarea hidden id="signature64" name="signed"></textarea>
                     </div>
-                    <button type="button" class="btn btn-danger btn-sm float-start" id="clear"><i
+                    <button type="button" class="btn btn-danger float-start" id="clear"><i
                             class="fa fa-eraser"></i>
-                        Clear</button>
-                    <button type="submit" class="btn btn-primary btn-sm float-end">
-                        Submit</button>
+                        Hapus</button>
+                    <button type="submit" class="btn btn-primary float-end">
+                        Simpan</button>
                 </form>
             </div>
         </div>

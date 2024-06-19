@@ -37,7 +37,7 @@
                                 @endif
                             </td>
                             <td> <a href="{{ route('student.show', $student->id) }}"
-                                    class="btn btn-primary btn-sm">preview</a></td>
+                                    class="btn btn-success btn-sm">lihat</a></td>
                             <td>
                                 <form method="POST" action="{{ route('student.destroy', $student->id) }}" class="d-inline"
                                     onsubmit="return confirm('Apakah anda yakin untuk menghapus data ?');">
