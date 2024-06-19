@@ -21,7 +21,7 @@
                         <th scope="col">b2</th>
                         <th scope="col">b3a</th>
                         <th scope="col">b3b</th>
-                        <th scope="col">b3c</th>
+                        {{-- <th scope="col">b3c</th> --}}
                         <th scope="col">r</th>
                         <th scope="col">preview</th>
                         <th scope="col">action</th>
@@ -43,7 +43,7 @@
                             <td>{{ $score->b2 }}</td>
                             <td>{{ $score->b3a }}</td>
                             <td>{{ $score->b3b }}</td>
-                            <td>{{ $score->b3c }}</td>
+                            {{-- <td>{{ $score->b3c }}</td> --}}
                             <td>{{ $score->r }}</td>
 
                             <td> <a href="{{ route('score.show', $score->id) }}" class="btn btn-primary btn-sm">preview</a>
