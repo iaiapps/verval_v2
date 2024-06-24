@@ -96,7 +96,7 @@
                                 <input id="email" type="text"
                                     class="form-control @error('email') is-invalid @enderror" name="login_identifier"
                                     value="{{ old('email') }}" required autofocus
-                                    placeholder="NISN atau NISN@email.com">
+                                    placeholder="NISN atau NISN@gmail.com">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
