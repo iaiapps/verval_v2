@@ -95,8 +95,8 @@
                                 <label for="email" class="form-label ">Email atau NISN</label>
                                 <input id="email" type="text"
                                     class="form-control @error('email') is-invalid @enderror" name="login_identifier"
-                                    value="{{ old('email') }}" required autocomplete="email" autofocus
-                                    placeholder="email@email.com">
+                                    value="{{ old('email') }}" required autofocus
+                                    placeholder="NISN atau NISN@email.com">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -110,7 +110,7 @@
 
                                 <input id="password" type="password"
                                     class="form-control @error('password') is-invalid @enderror" name="password" required
-                                    autocomplete="current-password">
+                                    autocomplete="current-password" placeholder="********">
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
