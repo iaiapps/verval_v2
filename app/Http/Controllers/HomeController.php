@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Student;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -24,12 +25,14 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $verified = Student::get('isVerified');
+        // dd($students);
         $user = Auth::user();
         if ($user->role == 'admin') {
-            return view('admin.home');
+            return view('admin.home', compact('verified'));
         } elseif ($user->role == 'user') {
             return view('student.home');
         }
-        dd($user);
+        // dd($user);
     }
 }
