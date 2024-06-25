@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $verified = Student::get('isVerified');
+        $verified = Student::where('isVerified', 1);
         // dd($students);
         $user = Auth::user();
         if ($user->role == 'admin') {

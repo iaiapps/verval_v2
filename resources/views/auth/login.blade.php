@@ -79,10 +79,10 @@
         </div>
     </div> --}}
 
-    <div class="text-center my-3">
+    <div class="text-center my-3 mt-5">
         <p class="fs-3 m-0">Verval Ijazah</p>
     </div>
-    <div class="container">
+    <div class="container mt-4">
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <div class="card">
@@ -95,8 +95,7 @@
                                 <label for="email" class="form-label ">Email atau NISN</label>
                                 <input id="email" type="text"
                                     class="form-control @error('email') is-invalid @enderror" name="login_identifier"
-                                    value="{{ old('email') }}" required autofocus
-                                    placeholder="NISN atau NISN@gmail.com">
+                                    value="{{ old('email') }}" required autofocus placeholder="NISN atau NISN@gmail.com">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
