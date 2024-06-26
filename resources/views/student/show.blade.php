@@ -90,7 +90,7 @@
                             <div class="text nisn">{{ $student->nisn }}</div>
                             <div class="text sekolah3">Sekolah Dasar Islam Terpadu Harapan Umat</div>
                             <div class="text nomor">421.2/66/310.03.20554128/2024</div>
-                            <div class="text tanggal">Kab. Jember, 10 Juni </div>
+                            <div class="text tanggal">Kab. Jember, 11 Juni </div>
                             <div class="text kepsek">Elly Nuzulianti S.S</div>
                         </div>
                     </div>

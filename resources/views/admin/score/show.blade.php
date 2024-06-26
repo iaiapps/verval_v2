@@ -54,7 +54,7 @@
 
                             {{-- <div class="text sekolah">SDIT Harapan Umat Jember</div> --}}
 
-                            <div class="text tanggal">Kab. Jember, 10 Juni </div>
+                            <div class="text tanggal">Kab. Jember, 11 Juni </div>
                             <div class="text kepsek">Elly Nuzulianti S.S</div>
                         </div>
                     </div>
