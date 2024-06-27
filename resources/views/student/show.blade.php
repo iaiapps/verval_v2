@@ -78,8 +78,8 @@
                     <div class="mb-3">
                         <div class="cardijazah">
                             <img class="imgijazah " src="{{ asset('img/ifront.png') }}" alt="ifront">
-                            <div class="text sekolah1">Sekolah Dasar Islam Terpadu </div>
-                            <div class="text sekolah2">Harapan Umat </div>
+                            <div class="text sekolah1">SD Islam Terpadu </div>
+                            <div class="text sekolah2">Harapan Umat Jember </div>
                             <div class="text npsn">20554128</div>
                             <div class="text kab">Jember</div>
                             <div class="text prov">Jawa Timur</div>
@@ -88,7 +88,7 @@
                             <div class="text ortu">{{ $student->parents_name }}</div>
                             <div class="text nis">{{ $student->nis }}</div>
                             <div class="text nisn">{{ $student->nisn }}</div>
-                            <div class="text sekolah3">Sekolah Dasar Islam Terpadu Harapan Umat</div>
+                            <div class="text sekolah3">SD Islam Terpadu Harapan Umat Jember</div>
                             <div class="text nomor">421.2/65/310.03.20554128/2024</div>
                             <div class="text tanggal">Kab. Jember, 11 Juni </div>
                             <div class="text kepsek">Elly Nuzulianti S.S</div>
